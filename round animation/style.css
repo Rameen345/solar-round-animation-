@@ -1,0 +1,183 @@
+body{
+    background-color:black;
+    color:#fff
+  }
+  .main{
+    width:330px;
+    height:330px;
+    border:2px solid #ccc;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%;
+    
+  }
+  .circle{
+    width:30px;
+    height:30px;
+    background:cyan;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    overflow:hidden;
+    animation: circle 10s linear infinite;
+  }
+  .circle-2{
+    width:30px;
+    height:30px;
+    background:cyan;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    overflow:hidden;
+    animation: rotate 11s linear infinite;
+  }
+  .circle-3{
+    width:30px;
+    height:30px;
+    background:cyan;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    overflow:hidden;
+    animation: rotateg 12s linear infinite;
+  }
+  .circle-4{
+    width:30px;
+    height:30px;
+    background:cyan;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    overflow:hidden;
+    animation: rotateh 13s linear infinite;
+  }
+  .circle-5{
+    width:30px;
+    height:30px;
+    background:cyan;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    overflow:hidden;
+    animation: rotatei 14s linear infinite;
+    transform: rotate(350deg, -350deg);
+  }
+  .circle-6{
+    width:30px;
+    height:30px;
+    background:cyan;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    overflow:hidden;
+    animation: rotatej 15s linear infinite;
+  }
+  .circle-7{
+    width:30px;
+    height:30px;
+    background:cyan;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    overflow:hidden;
+    animation: rotatek 16s linear infinite;
+  }
+  @keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(-165px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-165px)
+                rotate(-360deg);
+    }
+  }
+  @keyframes rotate{
+    0%{
+      transform:rotate(0deg)
+                translate(-190px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-190px)
+                rotate(-360deg);
+    }
+  }  
+  @keyframes rotateg{
+    0%{
+      transform:rotate(0deg)
+                translate(-170px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-170px)
+                rotate(-360deg);
+    }
+  }  
+  @keyframes rotateh{
+    0%{
+      transform:rotate(0deg)
+                translate(-230px)
+                rotate(70deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-230px)
+                rotate(-360deg);
+    }
+  }  
+  @keyframes rotatei{
+    0%{
+      transform:rotate(0deg)
+                translate(-250px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-250px)
+                rotate(-360deg);
+    }
+  }  
+  @keyframes rotatej{
+    0%{
+      transform:rotate(0deg)
+                translate(-270px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-270px)
+                rotate(-360deg);
+    }
+  }  
+  @keyframes rotatek{
+    0%{
+      transform:rotate(0deg)
+                translate(-300px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-300px)
+                rotate(-360deg);
+    }
+  }  
